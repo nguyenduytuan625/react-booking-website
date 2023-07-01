@@ -11,7 +11,7 @@ import Search from "./pages/search/Search";
 function App() {
   return (
     // <BrowserRouter>
-    <HashRouter basename="/">
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/search" element={<Search />} />
