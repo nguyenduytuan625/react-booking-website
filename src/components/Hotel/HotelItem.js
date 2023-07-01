@@ -5,7 +5,7 @@ const HotelItem = props => {
   return (
     <div className={styles.hotelitem}>
       <img src={props.image_url} />
-      <Link className={styles['mb-1']} to='/detail' >{props.name}</Link>
+      <Link className={styles['mb-1']} to='/react-booking-website/#/detail' >{props.name}</Link>
       <p className={styles['mb-1']}>{props.city}</p>
       <p className={styles['mb-1']}><b>Starting from ${props.price}</b></p>
       <p className={styles['mb-1']}><span>{props.rate}</span> {props.type}</p>
