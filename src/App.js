@@ -1,5 +1,5 @@
 import {
-  // BrowserRouter,
+  BrowserRouter,
   Routes,
   Route,
   HashRouter,
@@ -10,13 +10,15 @@ import Search from "./pages/search/Search";
 
 function App() {
   return (
-    <HashRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/search" element={<Search />} />
-        <Route path="/detail" element={<Detail />} />
-      </Routes>
-    </HashRouter>
+    <BrowserRouter>
+      <HashRouter basename="/">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/search" element={<Search />} />
+          <Route path="/detail" element={<Detail />} />
+        </Routes>
+      </HashRouter>
+    </BrowserRouter>
   );
 }
 
