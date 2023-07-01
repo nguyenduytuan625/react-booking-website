@@ -1,0 +1,32 @@
+:root {
+  --primary: #0275d8;
+  --primary-btn: #748ffc;
+  --secondary: #9FA6B2;
+  --success: #5cb85c;
+  --warning: #f0ad4e;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 0.9;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 1.1;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 1.3;
+}

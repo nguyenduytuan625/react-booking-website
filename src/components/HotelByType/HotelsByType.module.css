@@ -1,0 +1,13 @@
+.hotels {
+  margin: 4rem 2rem;
+}
+
+.hotels h2 {
+  margin-bottom: 0.5rem;
+}
+
+.hotels ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}

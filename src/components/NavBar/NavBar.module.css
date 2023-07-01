@@ -1,0 +1,27 @@
+.navbar {
+  background-color: #1864ab;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.navbar .heading {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.navbar .heading p {
+  font-size: 1.2rem;
+  margin-right: auto;
+}
+
+.navbar .btn {
+  color: var(--primary);
+  padding: 0.5rem;
+  font-weight: 500;
+}
+
+.navbar .content {
+  display: flex;
+  gap: 3rem;
+}

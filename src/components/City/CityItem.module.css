@@ -1,0 +1,16 @@
+.cityitem {
+  position: relative;
+  color: white;
+  z-index: -1;
+}
+
+.cityitem img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.cityitem .textbox {
+  position: absolute;
+  bottom: 0;
+  transform: translate(2rem, -2rem);
+}

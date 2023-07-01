@@ -1,0 +1,12 @@
+.hotelitem img {
+  width: 22vw;
+  height: 22vw;
+}
+
+.hotelitem .mb-1 {
+  margin-bottom: 0.8rem;
+}
+
+.hotelitem a {
+  display: inline-block;
+}

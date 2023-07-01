@@ -1,0 +1,7 @@
+.modal {
+  position: absolute;
+  /* height: 0%; */
+  z-index: 100;
+  left: 0;
+  top: 3rem;
+}

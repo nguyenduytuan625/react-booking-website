@@ -1,0 +1,28 @@
+.registerform {
+  text-align: center;
+  background: #1864ab;
+  color: white;
+  padding: 4rem 0;
+}
+
+.registerform input[type='text'] {
+  border: none;
+  text-indent: 0.5rem;
+}
+
+.registerform .btn {
+  background: var(--primary-btn);
+  color: white;
+  padding: 0.5rem;
+  border: none;
+}
+
+.registerform .mb-1 {
+  margin-bottom: 1rem;
+}
+
+.registerform .form-control {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}

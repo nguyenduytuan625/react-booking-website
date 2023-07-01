@@ -1,0 +1,6 @@
+.cities {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 4rem 2rem;
+}

@@ -1,0 +1,19 @@
+.hotels {
+  margin: 4rem 2rem;
+}
+
+.hotels h2 {
+  margin-bottom: 0.5rem;
+}
+
+.hotels ul {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.hotels ul span {
+  background: var(--primary);
+  color: white;
+  padding: 0.5rem;
+}
